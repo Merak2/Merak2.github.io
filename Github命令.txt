@@ -1,0 +1,36 @@
+《基本信息设置》
+-设置用户名
+	git config --global user.name 'yourname'
+-设置用户名邮箱
+	git config --global user.email 'youremail'
+-当前目录
+	pwd
+-当前文件
+	ls
+-查看当前账号信息
+	git config --list
+
+《初始化一个仓库》
+-新建本地文件夹
+	mkdir test
+-在文件内初始化git（创建git仓库）
+	git init
+-向仓库内添加文件
+-创建文件
+	touch/vim a1.php
+-查看状态
+	git status
+-添加到暂存区
+	git add a1.php
+-添加到Git区
+	git commit -m 'yourDescription'
+-删除文件
+	rm -rf name.php
+-从Git中删除
+	git rm test.php -m 'yourDescription'
+
+《远程管理》
+-克隆代码
+	git clone www...........
+-添加到远程仓库
+	git push
